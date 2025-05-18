@@ -15,7 +15,6 @@ title: Eduardo Salazar's Portfolio # This is what shows up in the tab of the bro
 name: Eddie Salazar
 headline: Mechanical Engineer | Robotics | Medical Devices | Machine Learning
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  description: 
   Mechanical engineer specializing in robotics, autonomous systems, and medical devices, 
   with a track record of leading multidisciplinary projects at UCLA. 
   Experienced in embedded systems, control theory, mechatronics, and computer vision, 
@@ -85,12 +84,12 @@ formspree-key:   https://formspree.io/f/{8-digit key}
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
-  text: "#2d2926"
+  text: "#1a1c20"
   border: "#ddd"
   link: "#4a76ee"
   highlight: "#0c0cf2"
   background: "#fffdf5"
-  light_background: "#fff9e6"
+  light_background: "#f3f5fb"
 
 # A few examples. 
 basic theme:
