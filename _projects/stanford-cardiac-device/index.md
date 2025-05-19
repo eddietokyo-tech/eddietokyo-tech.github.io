@@ -7,7 +7,7 @@ skills:
   - Rapid Prototyping
   - SolidWorks
   - FDA Regulatory Awareness
-main-image: /stanford-main.jpg
+main-image: /main-stanford.jpg
 ---
 
 ## Overview
