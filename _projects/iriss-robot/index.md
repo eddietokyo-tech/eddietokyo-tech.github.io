@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IRISS: Intraocular Surgical Robot
+title: IRISS Intraocular Surgical Robot
 description: Developed ML-integrated intraocular surgical system for OCT-guided cataract procedures, enabling real-time feedback and classification of ocular structures.
 skills:
   - Machine Learning
