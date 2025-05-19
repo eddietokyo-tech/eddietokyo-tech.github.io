@@ -6,7 +6,7 @@ skills:
   - Mechanical Design
   - Computer Vision
   - Team Leadership
-main-image: /projects/pediatric-foot/foot-cover.png
+main-image: /assets/projects/pediatric-foot/foot-cover.png
 ---
 
 ## Overview
