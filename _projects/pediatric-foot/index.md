@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Pediatric Prosthetic Leg
+title: Pediatric Prosthetic Foot
 description: Engineered a low-cost, durable pediatric prosthetic leg that adapts to growth, integrating mechanical design with real-time gait tracking.
 skills:
   - Mechanical Design
   - Computer Vision
   - Team Leadership
-main-image: /projects/pediatric-prosthetic-leg/main.jpg
+main-image: /projects/pediatric-foot/foot-cover.png
 ---
 
 ## Overview
