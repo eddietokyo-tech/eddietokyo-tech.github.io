@@ -1,15 +1,13 @@
 ---
 layout: post
-title: Sonos Teardown
-description: Conducted detailed teardown analysis of Sonos Era speaker, documenting internal components, driver configuration, and PCB design. Created technical documentation with photos and assembly insights for engineering reference. 
+title: Empty Project
+description: Conducted detailed analysis
 skills: 
-  - drumel
-  - microprobing
-  - Electronics Teardown
-  - PCB analysis
-  - audio system design
+  - skill 1
+  - skill 2
+  - skill 3
 
-main-image: /sonos.png
+main-image: 
 ---
 
 # This is another demo
