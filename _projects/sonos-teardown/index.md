@@ -7,7 +7,7 @@ skills:
   - Electrical Engineering
   - Soldering
   - Multimeters
-main-image: ./sonos.png
+main-image: /sonos.png
 ---
 
 # Overview

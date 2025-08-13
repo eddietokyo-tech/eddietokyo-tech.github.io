@@ -6,7 +6,7 @@ skills:
   - Mechanical Design
   - Computer Vision
   - Team Leadership
-main-image: ./foot-cover.png
+main-image: /foot-cover.png
 ---
 
 ## Overview
