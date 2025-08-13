@@ -7,7 +7,7 @@ skills:
   - Electrical Engineering
   - Soldering
   - Multimeters
-main-image: /run/media/squiddy/OS/Users/salaz/PC_Documents/github/eddietokyo-tech.github.io/_projects/sonos-teardown/sonos.png
+main-image: /assets/images/sonos.png
 ---
 
 # Overview
