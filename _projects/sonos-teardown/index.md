@@ -7,7 +7,7 @@ skills:
   - Electrical Engineering
   - Soldering
   - Multimeters
-main-image: ./rfid.jpg
+main-image: ./sonos.png
 ---
 
 # Overview
