@@ -22,7 +22,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/profile-pic.jpg
+profile_image: ./assets/images/profile-image/profile-pic.JPG
 
 
 # Link your resume
@@ -59,8 +59,8 @@ skills:
     tools:
     - Onshape
     - Solidworks
-    - Creo
     - Fusion 360 (Autodesk)
+    - KiCAD
     - ANSYS
     - COMSOL
   - category: Prototyping
