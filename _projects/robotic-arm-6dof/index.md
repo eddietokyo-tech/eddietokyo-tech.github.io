@@ -27,22 +27,22 @@ The project's challenge was in the mechanical design and actuator selection, as 
 #### 2.1 Robot Structure
 The designed manipulator is a 5-DOF robot arm with four revolute joints and a prismatic joint. This configuration provides enough degrees of freedom to achieve the necessary range of motion to interact with objects at varying distances within a specified workspace. The gripper/end effector is powered by an SG90s micro servo, which is controlled by an Arduino Uno.
 
-![Robot Arm CAD](Robot-arm-CAD2.png)
+{% include image-gallery.html images="Robot-arm-CAD2.png" height="400" %} 
 
 
 #### 2.2 Workspace Analysis
 Initially, the robot's workspace was a hemispherical region with a 30 cm radius. To overcome this limitation, a **linear guide** was integrated to enable linear motion, significantly expanding the robot's operational range and allowing it to serve a larger area. This enhancement demonstrates how a simple mechanical addition can significantly expand a robot's capabilities. 
 
-![Workspace](Workspace.png)
+{% include image-gallery.html images="Workspace.png" height="400" %} 
 
 #### 2.3 Link Length and Joint Configuration
 The link lengths were constrained by motor torque capabilities and physical interference. The joints are as follows:
-* []**Moving Base (Joint 1)**: Prismatic joint; increases reachable workspace.
-* []**Pivot (Joint 2)**: Revolute joint; controls rotation in the x-y plane.
-* []**Shoulder (Joint 3)**: Revolute joint; controls ascent, descent, and extension.
-* []**Elbow (Joint 4)**: Revolute joint; controls ascent, descent, and extension.
-* []**Wrist (Joint 5)**: Revolute joint; orients the manipulator perpendicular to the surface.
-* []**End-Effector**: A gripper controlled by an Arduino Uno.
+* **Moving Base (Joint 1)**: Prismatic joint; increases reachable workspace.
+* **Pivot (Joint 2)**: Revolute joint; controls rotation in the x-y plane.
+* **Shoulder (Joint 3)**: Revolute joint; controls ascent, descent, and extension.
+* **Elbow (Joint 4)**: Revolute joint; controls ascent, descent, and extension.
+* **Wrist (Joint 5)**: Revolute joint; orients the manipulator perpendicular to the surface.
+* **End-Effector**: A gripper controlled by an Arduino Uno.
 
 #### 2.4 Design Challenges
 A **rack and pinion mechanism** was used to control the gripper. A key issue encountered was adjusting for **3D printer tolerance**, as printing a gear required a tighter tolerance than normal. The team also had to increase the overall robustness of the design by bridging arm linkages and enlarging the baseplate, as it moved too much during operation.
@@ -55,14 +55,14 @@ The analysis showed that the highest stress was concentrated in the pivot above 
 The **Denavit-Hartenberg (DH) parameter** was used for forward kinematics. The z-axis of motor 3 was deliberately rotated by 180 degrees to maintain the arm's symmetry, canceling out offsets and enhancing performance.
 
 ### 5. Inverse Kinematics
-[]Inverse kinematics is the mathematical process of determining the joint angles needed to achieve a specific position and orientation of the end-effector. A **geometric method** was used to solve for the joint angles. The calculations for each joint are performed sequentially:
-* []**Joint 1 ($\theta_1$)**: Calculated using the projected end-effector position on a 2D plane: $\theta_1 = \operatorname{atan2}(y, x)$.
-* []**Joints 2 and 3 ($\theta_2$ and $\theta_3$)**: Calculated using a combination of trigonometric equations and the law of cosines. The equations for these are:
-    []$$\cos(\theta_3) = \frac{r_4^2 - l_2^2 - l_3^2}{2l_2l_3}$$  
-    []$$\theta_2 = \alpha + \beta - \frac{\pi}{2}$$  
-* []**Joint 4 ($\theta_4$)**: Controls the orientation of the end-effector and is computed based on the required orientation and the sum of previous joint angles: $\theta_4 = \gamma - \theta_2 - \frac{\pi}{2} + \theta_3$ .
+Inverse kinematics is the mathematical process of determining the joint angles needed to achieve a specific position and orientation of the end-effector. A **geometric method** was used to solve for the joint angles. The calculations for each joint are performed sequentially:
+* **Joint 1 ($\theta_1$)**: Calculated using the projected end-effector position on a 2D plane: $\theta_1 = \operatorname{atan2}(y, x)$.
+* **Joints 2 and 3 ($\theta_2$ and $\theta_3$)**: Calculated using a combination of trigonometric equations and the law of cosines. The equations for these are:
+    $$\cos(\theta_3) = \frac{r_4^2 - l_2^2 - l_3^2}{2l_2l_3}$$  
+    $$\theta_2 = \alpha + \beta - \frac{\pi}{2}$$  
+* **Joint 4 ($\theta_4$)**: Controls the orientation of the end-effector and is computed based on the required orientation and the sum of previous joint angles: $\theta_4 = \gamma - \theta_2 - \frac{\pi}{2} + \theta_3$ .
 
-![Calculations](Inverse-kinematics.png)
+{% include image-gallery.html images="Inverse-kinematics.png" height="400" %} 
 
 ### 6. Software Overview
 All software was developed in **MATLAB**. An interface was created with the Dynamixel SDK to send joint angle commands, read motor feedback, and adjust settings. The SG90s micro servo for the gripper was controlled separately by an Arduino board.
@@ -81,7 +81,7 @@ Simulations were performed through **MATLAB plots** to determine the reachable w
 ### 10. Conclusion
 The Butter Robot project successfully demonstrates the feasibility of applying robotic systems to small-scale tasks like passing butter using a **5-DOF manipulator**. The project created a functional robotic arm that meets the objective of efficiently delivering butter and stands as an excellent solution for educational purposes and low-cost prototyping.
 
-![Calculations](butter-passing.png)
+{% include image-gallery.html images="butter-passing.png" height="400" %} 
 
 ## Key Contributions
 

@@ -20,7 +20,6 @@ As an undergraduate researcher in UCLA's Advanced Robotic Micro Surgery (ARMS) L
 
 # Deep Learning for Ophthalmic Tissue Identification and Proximity Sensing
 
-**Research Publication** | *Translational Vision Science & Technology*
 
 ## Overview
 
@@ -50,7 +49,7 @@ Minimally invasive ophthalmic procedures require precise manipulation of delicat
 - **Hardware**: Spectral-domain OCT engine (1060 nm wavelength, 9.18μm axial resolution)
 - **Integration**: ROS-based communication system for real-time feedback
 
-{% include image-gallery.html images="classifications" height="400" %} 
+{% include image-gallery.html images="classifications.png" height="400" %} 
 *Figure 2: Dual deep learning architecture featuring EfficientNet-B0 for tissue classification (top) and U-Net for distance detection (bottom). The parallel processing design enables simultaneous real-time tissue identification and micron-level proximity sensing.*
 
 ## Methodology
