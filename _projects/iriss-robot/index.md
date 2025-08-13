@@ -15,7 +15,7 @@ main-image: /iriss-cover.png
 
 As an undergraduate researcher in UCLA's Advanced Robotic Micro Surgery (ARMS) Lab, I worked on the Intraocular Robotic Interventional and Surgical System (IRISS) — a teleoperated platform for anterior and posterior ocular surgeries. My focus was developing a machine learning pipeline for real-time surgical assistance using OCT imaging.
 
-![Figure 1: Experiment setup with the IRISS system](setup.png)
+![Figure 1: Experiment setup with the IRISS system](./setup.png)
 *Figure 1: Experiment setup with the IRISS system holding the A-scan probe and zoomed in view of the A-scan probe pointed at the pig eye's sclera.*
 
 # Deep Learning for Ophthalmic Tissue Identification and Proximity Sensing
@@ -50,7 +50,7 @@ Minimally invasive ophthalmic procedures require precise manipulation of delicat
 - **Hardware**: Spectral-domain OCT engine (1060 nm wavelength, 9.18μm axial resolution)
 - **Integration**: ROS-based communication system for real-time feedback
 
-![Figure 2: Neural Network Architecture](classifications.png)
+![Figure 2: Neural Network Architecture](./classifications.png)
 *Figure 2: Dual deep learning architecture featuring EfficientNet-B0 for tissue classification (top) and U-Net for distance detection (bottom). The parallel processing design enables simultaneous real-time tissue identification and micron-level proximity sensing.*
 
 ## Methodology
@@ -75,16 +75,16 @@ Minimally invasive ophthalmic procedures require precise manipulation of delicat
 - **Processing Speed**: 20Hz real-time operation
 - **System Latency**: 51ms total processing time per frame
 
-![Figure 3: Confusion Matrix for Tissue Classification](confusion-matrix.png)
+![Figure 3: Confusion Matrix for Tissue Classification](./confusion-matrix.png)
 *Figure 3: Confusion matrix showing classification performance across five tissue types (sclera, iris, lens, posterior capsule, retina) with 98.62% overall accuracy. Each cell shows the number of predictions, with perfect diagonal performance indicating excellent tissue discrimination.*
 
-![Figure 4: U-Net Segmentation Validation](unet.png)
+![Figure 4: U-Net Segmentation Validation](./unet.png)
 *Figure 4: U-Net predictions overlaid on B-scan OCT images across different tissue types. Predicted tissue boundaries (colored overlays) demonstrate accurate spatial localization matching the actual tissue interfaces visible in cross-sectional images.*
 
-![Figure 5: Distance Prediction Error Distribution](error.png)
+![Figure 5: Distance Prediction Error Distribution](./error.png)
 *Figure 5: Histogram of distance prediction errors showing that most predictions achieve perfect accuracy (0μm) or single-pixel precision (9.18μm), resulting in an RMS error of 5.06μm.*
 
-![Figure 6: Distance Prediction Accuracy](figure2.png)
+![Figure 6: Distance Prediction Accuracy](./figure2.png)
 *Figure 6: Scatter plot comparing predicted versus true tool-to-tissue distances. The tight clustering along the diagonal line demonstrates micron-level accuracy across all tissue types with minimal deviation from ground truth measurements.*
 
 ### Technical Achievements
