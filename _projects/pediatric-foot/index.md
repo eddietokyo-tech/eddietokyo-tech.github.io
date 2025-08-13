@@ -7,7 +7,6 @@ skills:
   - Computer Vision
   - Team Leadership
 main-image: ./foot-cover.png
-math: true
 ---
 
 ## Overview
@@ -97,7 +96,7 @@ The prosthetic foot uses a hinge joint allowing the top plate to rotate relative
 
 A computer vision pipeline was implemented using **ARUCO markers** and **OpenCV** to track ankle motion and gait patterns in real time. This system helps detect changes in gait due to growth, signaling when spring replacement or adjustment is needed.
 
-{% include image-gallery.html images="computer-vision.png" height="400" %}
+{% include image-gallery.html images="computer-vision.jpg" height="400" %}
 
 ## Key Contributions
 
