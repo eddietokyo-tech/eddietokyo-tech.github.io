@@ -7,7 +7,7 @@ skills:
   - Electrical Engineering
   - Soldering
   - Multimeters
-main-image: ./sonos.png
+main-image: /run/media/squiddy/OS/Users/salaz/PC_Documents/github/eddietokyo-tech.github.io/_projects/sonos-teardown/rfid.jpg
 ---
 
 # Overview
