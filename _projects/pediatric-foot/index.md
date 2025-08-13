@@ -55,7 +55,9 @@ $$\tau_{\text{tot}}(\theta) = \sum_{n=1}^{N} \tau_{n}(\theta)\Pi$$
 
 Finite Element Analysis was done using SoldWorks in order to verify material selection. Manufacturing was done using CNC machining, water-jetting and hand-machining - such as lathes, mills, and bench drills.
 
-Functionally, the prosthetic foot operates with a hinge joint that allows the top foot plate to rotate relative to the pylon during the gait cycle. As the foot plate moves, it is initially compressed by the posterior and first anterior springs to provide a baseline level of stability. The most anterior spring is position-adjustable using a thumb screw to tune the overall stiffness according to the child’s weight. Pre-drilled holes, determined via calculations, allow for this adjustment. Notably, this spring is positioned slightly lower than the other two to generate greater torque once the ankle reaches a critical angle, mimicking the torque-angle relationship observed in normal human gait.
+Functionally, the prosthetic foot operates with a hinge joint that allows the top foot plate to rotate relative to the pylon during the gait cycle. As the foot plate moves, it is initially compressed by the posterior and first anterior springs to provide a baseline level of stability. The most anterior spring is position-adjustable using a thumb screw to tune the overall stiffness according to the child’s weight. Pre-drilled holes, determined via calculations, allow for this adjustment. Notably, this spring is positioned slightly lower than the other two to generate greater torque once the ankle reaches a critical angle, mimicking the torque-angle relationship observed in normal human gait. A computer vision pipeline was implemented to track gait and ankle movement in real time using ARUCO markers and existing OpenCV libraries. 
+
+![CV](/computer-vision.jpg)
 
 ## Key Contributions
 
