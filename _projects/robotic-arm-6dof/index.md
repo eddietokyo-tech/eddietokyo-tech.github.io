@@ -71,14 +71,11 @@ The control software had **two operating modes**:
 1. **Predetermined Trajectory Mode**: The user sets end-effector coordinates, and the software computes inverse kinematics to control the robot's movement. The robot's real-time configuration is plotted using forward kinematics.
 2. **User Manual Control Mode**: The user uses a keyboard to change the end-effector's desired position and control the gripper. Inverse kinematics is then used to compute the necessary joint angles in real time.
 
-### 7. Singularity Discussion
-**"We don't have a singularity."**.
-
-### 8. Simulation
+### 7. Simulation
 Simulations were performed through **MATLAB plots** to determine the reachable workspace for a specific end-effector orientation and to test specified coordinates. Physical constraints on the link shape were also applied as limits for joint angles in the simulation.
 
 
-### 10. Conclusion
+### 8. Conclusion
 The Butter Robot project successfully demonstrates the feasibility of applying robotic systems to small-scale tasks like passing butter using a **5-DOF manipulator**. The project created a functional robotic arm that meets the objective of efficiently delivering butter and stands as an excellent solution for educational purposes and low-cost prototyping.
 
 {% include image-gallery.html images="butter-passing.png" height="400" %} 

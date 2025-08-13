@@ -3,10 +3,11 @@ layout: post
 title: Pediatric Cardiac Stretching Device
 description: Developed a biocompatible medical device to stretch the heart in children with congenital defects as part of Stanford’s Research Program.
 skills:
-  - Biomedical Engineering
   - Rapid Prototyping
   - SolidWorks
   - FDA Regulatory Awareness
+  - KiCAD
+  - Molding
 main-image: /main-stanford.png
 ---
 
